@@ -1,3 +1,5 @@
+import imagem from "../assets/imagem.png";
+
 export const Hero = () => (
   <section className="flex flex-col-reverse md:flex-row items-center justify-between px-28 py-12 bg-zinc-900 gap-8">
     <div className="text-center md:text-left md:w-1/2">
@@ -18,7 +20,7 @@ export const Hero = () => (
     <div className="flex justify-center md:justify-end md:w-1/2">
       <div className="w-40 h-40 md:w-62 md:h-62 rounded-full overflow-hidden shadow-[0_0_70px_#22c55e]">
         <img
-          src="/imagem.png"
+          src={imagem}
           alt="Foto de perfil"
           className="w-full h-full object-cover"
         />
