@@ -8,8 +8,8 @@ export const Header = () => (
       <a href="#projects" className="hover:text-fuchsia-400">
         Projetos
       </a>
-      <a href="#contact" className="hover:text-fuchsia-400">
-        Contato
+      <a href="#skills" className="hover:text-fuchsia-400">
+        Habilidades
       </a>
     </nav>
   </header>
