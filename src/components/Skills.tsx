@@ -112,7 +112,8 @@ export const Skills = () => (
           key={i}
           className="border border-zinc-700 p-6 rounded-lg hover:border-green-500 transition shadow-lg hover:shadow-green-300/40 flex items-start space-x-4"
         >
-          <div>{iconMap[icon]}</div>
+          <div>{iconMap[icon as keyof typeof iconMap]}</div>
+
           <div>
             <h4 className="text-xl font-bold mb-1">{name}</h4>
             <p className="text-zinc-400 text-sm">{description}</p>

@@ -61,7 +61,7 @@ export const Projects = () => (
           <div className="flex space-x-4">
             {techs.map((tech) => (
               <div key={tech} className="flex items-center space-x-2">
-                {iconMap[tech]}
+                {iconMap[tech as keyof typeof iconMap]}
                 <span className="text-zinc-300 text-sm capitalize">{tech}</span>
               </div>
             ))}
